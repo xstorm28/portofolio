@@ -18,7 +18,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "I’m always eager to develop new skills that open up new possibilities",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building New Skills",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to see more of my projects??",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +73,75 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Figma Clone",
+    des: "Figma clone with real-world features like live collaboration through cursor chat, comments, reactions, and drawing designs (shapes, image upload) on the canvas using Next.js 14, Fabric.js, and Liveblocks.",
+    img: "/figmac.png",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/liveb.svg",
+      "/fabricj.svg",
+    ],
+    link: "https://liveblocks-figma-clone-rho.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Todo Page",
+    des: "Organize all your pending tasks with this to-do page, where you can arrange and filter them in the best way possible",
+    // img: "/p2.svg",
+    img: "/todoo.png",
+    iconLists: ["/vite.svg", "/re.svg", "/tail.svg"],
+    link: "https://fanciful-choux-006e9d.netlify.app/",
   },
+
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://imaginify-rust-zeta.vercel.app/",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/re.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://aalp.netlify.app/",
+  },
+  {
+    id: 5,
+    title:
+      "Responsive BrainWave website with Modern UI/UX in React JS with Tailwind",
+    des: "Introducing Brainwave, a fully-featured AI landing page kit that comes with design files and stunning illustrations with alpha (transparent background). This package has everything you need to create a top-notch, professional-looking landing page. With its responsive and fully-customizable landing page template,",
+    img: "/brainw.png",
+    iconLists: ["/vite.svg", "/tail.svg", "/re.svg", "/gsap.svg"],
+    link: "https://brainwave-page-design-iz5wqun6w.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      'I am a front-end developer with 2 years of experience and a Data Science student at Tecnológico de Monterrey. I love learning new things, exploring new places, and working in teams. I’m committed to delivering quality work on time and live by the philosophy, "Leave a place better than you found it." Resilient and passionate about tackling complex challenges, I always seek opportunities to grow and push my limits.',
+    name: "Alejandro Sierra",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a front-end developer, I’m driven by creating impactful, user-centered solutions. My passion for technology extends beyond coding—I’m always learning, exploring new fields, and tackling complex challenges. I thrive in collaborative, innovative environments and believe that continuous learning and adaptability are key to success. Every project is an opportunity to make a meaningful impact, and I approach each with dedication and a focus on excellence.",
+    name: "Alejandro Sierra",
+    title: "Frontend Developer",
   },
 ];
 
@@ -173,29 +181,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Always Be Learning",
+    desc: " is a mindset of continuous growth and curiosity, where every experience is an opportunity to gain new skills and broaden horizons. It’s a life philosophy that turns learning into a constant journey of discovery and self-improvement.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Prioritize the Custome",
+    desc: " placing the customer's needs, experiences, and satisfaction at the core of every decision and action. It’s about understanding their goals, solving their problems, and consistently delivering value to build trust and foster long-term relationships.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Create Meaningful Digital Experiences",
+    desc: "designing websites and applications that are accessible, user-friendly, and impactful. By focusing on clean code, intuitive design, and performance optimization.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Empower Through Innovation",
+    desc: " I focus on building solutions that are both creative and practical, solving real-world challenges. By staying up-to-date with the latest tools and frameworks, I strive to craft digital products that inspire and engage users. My goal is to design seamless, efficient experiences that empower others, ultimately contributing to a more connected and innovative world.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/xstorm28",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/a_sierraa",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/alejandro-sierra-islas28/",
   },
 ];
