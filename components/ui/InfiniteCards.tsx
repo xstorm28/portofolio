@@ -1,5 +1,3 @@
-// InfiniteMovingCards.tsx
-
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -25,9 +23,17 @@ export const InfiniteMovingCards = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
+  const [isClient, setIsClient] = useState(false); // Estado para verificar si estamos en el cliente
+
   useEffect(() => {
-    addAnimation();
+    setIsClient(true); // Actualiza el estado cuando se monta el componente
   }, []);
+
+  useEffect(() => {
+    if (isClient) {
+      addAnimation();
+    }
+  }, [isClient]);
 
   const [start, setStart] = useState(false);
 
@@ -75,6 +81,10 @@ export const InfiniteMovingCards = ({
       }
     }
   };
+
+  if (!isClient) {
+    return null; // No renderizamos nada hasta que el componente se monte en el cliente
+  }
 
   return (
     <div
