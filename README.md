@@ -22,10 +22,18 @@
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> deeb342e8ea899b4a8627e06bff029a7ca274c2d
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> deeb342e8ea899b4a8627e06bff029a7ca274c2d
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
@@ -50,3 +58,7 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
 and many more, including code architecture and reusability
+<<<<<<< HEAD
+=======
+
+>>>>>>> deeb342e8ea899b4a8627e06bff029a7ca274c2d
